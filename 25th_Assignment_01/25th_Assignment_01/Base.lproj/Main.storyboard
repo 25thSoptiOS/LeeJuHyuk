@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="drQ-Oq-n7H">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Gn4-0w-7cb">
+            <objects>
+                <viewController id="drQ-Oq-n7H" customClass="ViewController" customModule="_5th_Assignment_01" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oFe-UZ-waB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOPT25th_iOS_jh" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnZ-eP-bsd">
+                                <rect key="frame" x="86" y="113" width="245" height="66"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insta_profile" translatesAutoresizingMaskIntoConstraints="NO" id="6nz-hz-yTM">
+                                <rect key="frame" x="10" y="113" width="66" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="KFh-iR-FRL"/>
+                                    <constraint firstAttribute="width" constant="66" id="zbh-HE-t5w"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=". . ." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZk-7e-TiE">
+                                <rect key="frame" x="331" y="113" width="83" height="66"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insta_upload_picture" translatesAutoresizingMaskIntoConstraints="NO" id="V7N-Hy-fMj">
+                                <rect key="frame" x="0.0" y="185" width="414" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" id="XRH-yW-rPk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnu-53-vuo">
+                                <rect key="frame" x="20" y="575" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Oxg-dA-VA5"/>
+                                    <constraint firstAttribute="width" constant="50" id="Xtr-pl-jSj"/>
+                                </constraints>
+                                <state key="normal" image="empty_heart"/>
+                                <connections>
+                                    <action selector="heartBtnClick:" destination="drQ-Oq-n7H" eventType="touchUpInside" id="ttm-Pd-uw1"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOPT25th_iOS_jh 님이 좋아합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqw-AX-UbX">
+                                <rect key="frame" x="80" y="560" width="334" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rrg-Ag-Cba">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.21955265410958905" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="B2L-yU-VYw"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Soptstagram">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="HoeflerText-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Rrg-Ag-Cba" firstAttribute="trailing" secondItem="Ntt-T3-Z0r" secondAttribute="trailing" id="3iG-1q-uYg"/>
+                            <constraint firstItem="TZk-7e-TiE" firstAttribute="top" secondItem="Ntt-T3-Z0r" secondAttribute="top" constant="69" id="7w7-qA-fJ3"/>
+                            <constraint firstItem="TZk-7e-TiE" firstAttribute="width" secondItem="Rrg-Ag-Cba" secondAttribute="width" multiplier="0.2" id="8eb-60-pUH"/>
+                            <constraint firstItem="6nz-hz-yTM" firstAttribute="leading" secondItem="Ntt-T3-Z0r" secondAttribute="leading" constant="10" id="A2J-wc-e5Q"/>
+                            <constraint firstItem="V7N-Hy-fMj" firstAttribute="trailing" secondItem="Ntt-T3-Z0r" secondAttribute="trailing" id="BUk-7P-igr"/>
+                            <constraint firstItem="Xnu-53-vuo" firstAttribute="leading" secondItem="Ntt-T3-Z0r" secondAttribute="leading" constant="20" id="Bns-pd-D5z"/>
+                            <constraint firstItem="FnZ-eP-bsd" firstAttribute="height" secondItem="6nz-hz-yTM" secondAttribute="height" id="Ffb-Ny-vsS"/>
+                            <constraint firstItem="wqw-AX-UbX" firstAttribute="centerY" secondItem="Xnu-53-vuo" secondAttribute="centerY" id="HJw-1t-jay"/>
+                            <constraint firstItem="V7N-Hy-fMj" firstAttribute="leading" secondItem="Ntt-T3-Z0r" secondAttribute="leading" id="KVf-vo-BLu"/>
+                            <constraint firstItem="wqw-AX-UbX" firstAttribute="top" secondItem="V7N-Hy-fMj" secondAttribute="bottom" id="MSN-nb-VKu"/>
+                            <constraint firstItem="TZk-7e-TiE" firstAttribute="trailing" secondItem="Ntt-T3-Z0r" secondAttribute="trailing" id="RNu-3V-r4o"/>
+                            <constraint firstItem="Rrg-Ag-Cba" firstAttribute="leading" secondItem="Ntt-T3-Z0r" secondAttribute="leading" id="U9N-fL-klf"/>
+                            <constraint firstItem="TZk-7e-TiE" firstAttribute="centerY" secondItem="FnZ-eP-bsd" secondAttribute="centerY" id="VrP-3j-zzX"/>
+                            <constraint firstItem="FnZ-eP-bsd" firstAttribute="leading" secondItem="6nz-hz-yTM" secondAttribute="trailing" constant="10" id="W4p-8v-9pb"/>
+                            <constraint firstItem="wqw-AX-UbX" firstAttribute="leading" secondItem="Xnu-53-vuo" secondAttribute="trailing" constant="10" id="Wi8-Q5-Ofc"/>
+                            <constraint firstItem="6nz-hz-yTM" firstAttribute="top" secondItem="Ntt-T3-Z0r" secondAttribute="top" constant="69" id="X3T-Cm-JfR"/>
+                            <constraint firstItem="wqw-AX-UbX" firstAttribute="trailing" secondItem="Ntt-T3-Z0r" secondAttribute="trailing" id="cOc-2g-buF"/>
+                            <constraint firstItem="V7N-Hy-fMj" firstAttribute="top" secondItem="FnZ-eP-bsd" secondAttribute="bottom" constant="6" id="gMt-u0-Mb4"/>
+                            <constraint firstItem="Xnu-53-vuo" firstAttribute="top" secondItem="V7N-Hy-fMj" secondAttribute="bottom" constant="15" id="kJX-B1-dy9"/>
+                            <constraint firstItem="Rrg-Ag-Cba" firstAttribute="top" secondItem="Ntt-T3-Z0r" secondAttribute="top" id="lqC-Y7-Byq"/>
+                            <constraint firstItem="TZk-7e-TiE" firstAttribute="height" secondItem="FnZ-eP-bsd" secondAttribute="height" id="mGb-HC-5lN"/>
+                            <constraint firstItem="TZk-7e-TiE" firstAttribute="leading" secondItem="FnZ-eP-bsd" secondAttribute="trailing" id="p4T-YC-Psc"/>
+                            <constraint firstItem="FnZ-eP-bsd" firstAttribute="centerY" secondItem="6nz-hz-yTM" secondAttribute="centerY" id="pFd-pA-4RZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ntt-T3-Z0r"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnHeart" destination="Xnu-53-vuo" id="EkX-yI-lif"/>
+                        <outlet property="lblAppName" destination="Rrg-Ag-Cba" id="8ft-xc-N5c"/>
+                        <outlet property="lblLike" destination="wqw-AX-UbX" id="um5-04-dBq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x04-t1-GhV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111.2" y="-539.28035982008998"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="empty_heart" width="38" height="38"/>
+        <image name="insta_profile" width="66" height="66"/>
+        <image name="insta_upload_picture" width="375" height="375"/>
+    </resources>
+</document>
