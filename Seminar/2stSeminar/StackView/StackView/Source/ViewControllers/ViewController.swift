@@ -84,7 +84,7 @@ extension ViewController: UIGestureRecognizerDelegate {
             self.imgViewLogo.alpha = 0
             
             // +로 갈수록 y값이 내려가고 -로 갈수록 y값이 올라간다.
-            self.stackViewCenterY.constant = +keyboardHeight/2 + 50
+            self.stackViewCenterY.constant = +keyboardHeight/2 + 100
         })
         
         self.view.layoutIfNeeded()
